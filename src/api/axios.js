@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://localhost:8080',
+  baseURL: 'jobtrackerbackend-production-7bb7.up.railway.app',
   withCredentials: true,
 })
 
